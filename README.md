@@ -1,6 +1,6 @@
 Stock Market Analysis and Prediction Project
 Overview
-Team: Daniel A, Daniel B
+Team: Daniel A, Daniel B, David
 
 This project aims to analyze historical stock market data, identify trends, and predict future stock prices. We will focus on examining stock market trends from specific periods and analyzing market collapse trends.
 Data Source
