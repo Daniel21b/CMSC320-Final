@@ -61,4 +61,4 @@ From our analysis, we aim to:
 
     Enhance Predictive Models:
         Improve the accuracy of stock price predictions by incorporating historical data and event analysis.
-        Develop robust models that can aid investors in making informed decisions.
+        Develop  models that can aid investors in making informed decisions.
