@@ -11,7 +11,9 @@ The chosen datasets are essential for several reasons:
     Event Impact Analysis: These datasets allow us to examine the effects of significant events (e.g., financial crises, political changes) on stock prices, offering valuable insights into market behavior.
 
 Objectives
+
 Team: Daniel A,Daniel B,David
+
 The main objectives of this project are:
 
     Behavioral Analysis:
