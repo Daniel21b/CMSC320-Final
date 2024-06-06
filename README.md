@@ -12,7 +12,7 @@ The chosen datasets are essential for several reasons:
 
 Objectives
 
-Team: Daniel A,Daniel B,David
+Team: Daniel A, Daniel B, Daoud A.
 
 The main objectives of this project are:
 
@@ -34,7 +34,7 @@ Datasets
 The project utilizes the following datasets:
 
     FSCs-Banks (2006-2020):
-        Contains stock information (high, low, close, etc.) for major financial services and banks from January 1, 2006, to November 1, 2020.
+        Contains stock information (high, low, close, etc.) for major financial services companies and banks from January 1, 2006, to November 1, 2020.
         https://www.kaggle.com/datasets/dgawlik/nyse
 
     Stock Market Indices (2006-2020):
@@ -43,7 +43,7 @@ The project utilizes the following datasets:
 
     Stock Market Indices (2014-2024):
         Extends the coverage of stock market indices data from 2014 to 2024.
-        https://www.kaggle.com/datasets/jacksoncrow/stock-market-dataset
+        https://www.nasdaq.com/market-activity/quotes/historical
 
     Tech Companies (2006-2020):
         Includes stock information for the top tech companies from January 1, 2006, to November 1, 2020.
