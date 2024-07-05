@@ -3,7 +3,8 @@
 <head><meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>final (1)</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>final (2)</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+
 
 
 
@@ -15619,8 +15620,53 @@ By conducting hypothesis tests such as the T Test and Mann-Whitney U Test, we ca
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <div style="text-align: center;">
-    <img src="AiPhoto.jpeg" width="1000" height="400">
+    <img src="AiPhoto.jpeg" width="800" height="400">
 </div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h1 id="Stock--Fun-Fact">Stock  Fun Fact<a class="anchor-link" href="#Stock--Fun-Fact">&#182;</a></h1><div style="text-align: center;">
+    <img src="Didyouknow.jpg" width="300" height="200">
+</div><p>If you had perfectly predicted the daily movements of the S&amp;P 500 and invested accordingly from 1993 to 2013, you would have turned $1,000 into approximately $5.4 billion!</p>
+<p>This mind-boggling return demonstrates the immense potential of accurate stock market prediction. It's about 1 million times more than you would have earned by simply buying and holding the index, which would have turned $1,000 into about $5,000 over the same period.</p>
+<p>While achieving perfect prediction is practically impossible, this fact underscores why so many researchers, investors, and data scientists are passionate about improving stock market forecasting techniques. Even small improvements in predictive accuracy can lead to significant financial gains!</p>
+<p>Remember, though: past performance doesn't guarantee future results, and all investments carry risk. Always do your own research and consider seeking advice from financial professionals before making investment decisions.</p>
+<h1 id="Tips-and-Tricks-for-Stock-Market-Analysis-and-Prediction">Tips and Tricks for Stock Market Analysis and Prediction<a class="anchor-link" href="#Tips-and-Tricks-for-Stock-Market-Analysis-and-Prediction">&#182;</a></h1><p>Whether you're new to stock market analysis or looking to refine your approach, these tips and tricks can help improve your predictive modeling and decision-making processes.</p>
+<ol>
+<li><p><strong>Data Preparation is Key</strong></p>
+<ul>
+<li><strong>Tip</strong>: Always start with thorough data cleaning and normalization.</li>
+<li><strong>Trick</strong>: Use logarithmic returns instead of raw prices to stabilize variance and make the data more suitable for statistical modeling.</li>
+</ul>
+</li>
+<li><p><strong>Understand the Limitations</strong></p>
+<ul>
+<li><strong>Tip</strong>: No model can predict the market with 100% accuracy.</li>
+<li><strong>Trick</strong>: Use your models as one of many tools in your decision-making process, not as the sole basis for investment choices.</li>
+</ul>
+</li>
+<li><p><strong>Combine Multiple Indicators</strong></p>
+<ul>
+<li><strong>Tip</strong>: Don't rely on a single metric or model.</li>
+<li><strong>Trick</strong>: Create a composite indicator by combining technical indicators (e.g., Moving Averages, RSI) with fundamental analysis and sentiment data.</li>
+</ul>
+</li>
+<li><p><strong>Stay Updated with Economic Events</strong></p>
+<ul>
+<li><strong>Tip</strong>: Major economic events can significantly impact the market.</li>
+<li><strong>Trick</strong>: Maintain an economic calendar and adjust your models or expectations around key dates like Fed announcements or earnings reports.</li>
+</ul>
+</li>
+</ol>
+<p>For more resources on stock market analysis, check out <a href="https://vespertool.com/blog/top-15-stock-market-resources/">Vesper's Top 15 Stock Market Resources</a>.</p>
+
 </div>
 </div>
 </div>
@@ -15648,9 +15694,11 @@ An ensemble learning method for regression that can handle non-linear relationsh
 </ol>
 <p>For this analysis, we will implement and evaluate two models:</p>
 <ol>
-<li><p><strong>ARIMA:</strong><br>
-For its effectiveness in time series forecasting.</p>
-</li>
+<li><p><strong>ARIMA:</strong></p>
+<p>For its effectiveness in time series forecasting.</p>
+<div style="text-align: left;">
+ <img src="Equation.png" width="2000" height="300">
+</div></li>
 <li><p><strong>LSTM:</strong><br>
 For capturing more complex patterns in the data.</p>
 </li>
@@ -16113,6 +16161,9 @@ class="
 </li>
 </ol>
 <h3 id="Conclusion">Conclusion<a class="anchor-link" href="#Conclusion">&#182;</a></h3><p>The ARIMA(5,1,5) model demonstrates promising results in predicting S&amp;P 500 close prices. While it captures overall trends and major market events effectively, there's room for improvement in handling short-term volatility. The suggested enhancements focus on refining the model's accuracy, robustness, and real-world applicability.</p>
+<p>Resources: <a href="https://www.capitalone.com/tech/machine-learning/understanding-arima-models/">https://www.capitalone.com/tech/machine-learning/understanding-arima-models/</a></p>
+
+<pre><code>     https://towardsdatascience.com/arima-simplified-b63315f27cbc</code></pre>
 
 </div>
 </div>
@@ -16179,6 +16230,9 @@ class="
 </li>
 </ol>
 <h3 id="Conclusion">Conclusion<a class="anchor-link" href="#Conclusion">&#182;</a></h3><p>The LSTM model demonstrates strong performance in predicting S&amp;P 500 close prices, with an RMSE of approximately 15.89 on the test set. It effectively captures both long-term trends and major market events. The model's ability to adapt to different market conditions is particularly noteworthy. However, there is still room for improvement, particularly in fine-tuning the model architecture and incorporating additional relevant features. Continued iteration, validation, and comparison with other modeling approaches are recommended to further enhance the predictive capabilities for financial market analysis.</p>
+<p>Resources: <a href="https://www.analyticsvidhya.com/blog/2022/01/the-complete-lstm-tutorial-with-implementation/">https://www.analyticsvidhya.com/blog/2022/01/the-complete-lstm-tutorial-with-implementation/</a></p>
+
+<pre><code>       https://towardsdatascience.com/lstm-by-example-using-tensorflow-feb0c1968537</code></pre>
 
 </div>
 </div>
